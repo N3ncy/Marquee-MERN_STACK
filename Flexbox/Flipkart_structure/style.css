@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy, sans-serif;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    margin: 0px auto;
+    
+  
+}
+.top-nav{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px 10px;
+    padding: 1%;
+}
+button{
+    width: 150px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+.btn{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.top-nav-left{
+    display: flex;
+    gap: 10px;
+}
+.top-nav-right{
+    display: flex;
+    gap: 10px;
+}
+.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+}
+.search-box{
+   display: flex;
+   align-items: center;
+   gap:10px;
+   flex: 1;
+   position: relative;
+   width: 100%;
+}
+.search-box i {
+  font-size: 18px;
+  color: gray;
+  position: absolute;
+  left: 15px;           
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.search {
+  height: 40px;
+  width: 90%;
+  border: 1px solid rgb(0, 221, 255);
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 0 15px 0 14px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav-links a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  color: rgb(0, 221, 255);
+}
