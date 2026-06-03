@@ -187,8 +187,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border: 2px solid blue;
-  margin-top: 20px;
+  /* border: 2px solid blue; */
+  margin-top: 30px;
 }
 
 #home-decor h2 {
@@ -235,11 +235,60 @@ main {
   flex-direction: row;
   justify-content: space-evenly;
   gap: 10px;
-  background-color: rgb(205, 200, 200);
+  background-color: rgb(85, 81, 81);
+  border: 2px solid;
+}
+
+#grab{
+  padding: 15px;
+  background-color: rgb(104, 104, 227);
+  border-radius: 10px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+#grab h2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+#grab-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: white;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.grab-cards{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.grab-cards img{
+  width: 210px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 15px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10px;
+  background-color: rgb(85, 81, 81);
+  border: 2px solid;
 }
 
 footer{
     background-color: black;
+    margin-top: 300px;
 }
 
 
