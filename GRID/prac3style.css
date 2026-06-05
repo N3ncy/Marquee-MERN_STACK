@@ -1,0 +1,81 @@
+:root{
+    --card-border-radius:2rem;
+    --heading-font-size: 32px;
+
+    --purple-card-color:#4d1f5a;
+    --purple-card-bg:#b6a6d5;
+
+    --pink-card-color:#4e1b5a;
+    --pink-card-bg:#f480a3;
+
+    --green-card-color:#173f24;
+    --green-card-bg:#c4d58d;
+
+    --yellow-card-color:#453e1c;
+    --yellow-card-bg:#fddd71;
+
+    --ornge-card-color:#4e1403;
+    --orange-card-bg:#f8a475;
+
+    --blue-card-color:#194565;
+    --blue-card-bg:#b7cddb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy, sans-serif;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: grid;
+    height: 500px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+    gap: 10px;
+    margin: 30px 30px 50px 50px;
+}
+h2{
+    font-size: var(--heading-font-size);
+}
+.cards{
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    border-radius: var(--card-border-radius);
+} 
+.purple{
+    background-color: var(--purple-card-bg);
+    color: var(--purple-card-color);
+    grid-row: 1/ span 2;
+}
+.pink{
+    background-color:var(--pink-card-bg);
+    color: var(--pink-card-color);
+    grid-column: 2/span 2;
+}
+.green{
+    background-color: var(--green-card-bg);
+    color: var(--green-card-color);
+}
+.yellow{
+    background-color: var(--yellow-card-bg);
+    color: var(--yellow-card-color)
+}
+.orange{
+    background-color: var(--orange-card-bg);
+    color: var(--ornge-card-color);
+    grid-column: 1/ span 2;
+    grid-row: 3/ apan 1;
+}
+.blue{
+    background-color: var(--blue-card-bg);
+    color: var(--blue-card-color);
+}

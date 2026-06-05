@@ -1,3 +1,26 @@
+.root{
+    --card-border-radius:2rem;
+    --heading-font-size: 32px;
+
+    --purple-card-color:#4d1f5a;
+    --purple-card-bg:#b6a6d5;
+
+    --pink-card-color:#4e1b5a;
+    --pink-card-bg:#f480a3;
+
+    --green-card-color:#173f24;
+    --green-card-bg:#c4d58d;
+
+    --yellow-card-color:#453e1c;
+    --yellow-card-bg:#fddd71;
+
+    --ornge-card-color:#4e1403;
+    --orange-card-bg:#f8a475;
+
+    --blue-card-color:#194565;
+    --blue-card-bg:#b7cddb;
+}
+
 * {
     margin: 0;
     padding: 0;
