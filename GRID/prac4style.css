@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy, sans-serif;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 100px 80% 100px;
+    grid-template-rows: 80px 1fr 40px;
+    grid-template-areas: 'header1 header1 header1' 'nav main sidebar' 'nav foot foot';
+}
+
+header,aside,main,footer,nav{
+    background-color: rgb(35, 161, 199);
+    color: white;
+    border: 1px solid skyblue;
+}
+
+header{
+    grid-area: header1;
+}
+aside{
+    grid-area: sidebar;
+}
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: foot;
+}
